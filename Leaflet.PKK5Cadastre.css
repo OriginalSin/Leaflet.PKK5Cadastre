@@ -1,0 +1,90 @@
+/* added css for cadastre Popup */
+.cadInfo .cadNum {
+    font-weight: bold;
+}
+.cadInfo .featureCont {
+    min-height: 200px;
+    max-height: 200px;
+    overflow-y: auto;
+	margin-bottom: 16px;
+	text-align: center;
+}
+.cadInfo .operCont {
+	height: 20px;
+}
+.cadInfo .featureCont .first{
+    width: 100px;
+	font-weight: bold;
+}
+.cadInfo .featureCont table {
+	text-align: left;
+}
+.cadInfo .featureCont td {
+	border-bottom: 1px solid #ddd;
+    height: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.cadInfo .ShowObject {
+    cursor: pointer;
+	border-radius: 4px;
+    padding: 3px;
+}
+.cadInfo .ShowObjectLabel {
+    position: relative;
+    top: -3px;
+    margin-left: 4px;
+}
+.cadInfo .cadNav {
+	min-height: 60px;
+}
+.cadInfo .cadNav .cadCount {
+    width: 75%;
+    padding: 0px 10px 0px 10px;	
+    text-align: center;
+    float: left;
+}
+.cadInfo .cadNav .cadLeft {
+    float: left;
+    cursor: pointer;
+	padding-left: 3px;
+    color: #2372B9;
+    font-weight: bold;
+    font-size: large;
+}
+.cadInfo .cadNav .cadRight {
+    position: absolute;
+    right: 20px;
+	padding-right: 3px;
+    cursor: pointer;
+    color: #2372B9;
+    font-weight: bold;
+    font-size: large;
+}
+.cadInfo .notVisible {
+    visibility: hidden;
+}
+.cadInfo .button:hover {
+    background: #f47c20;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f88e11), to(#f06015));
+    background: -moz-linear-gradient(top, #f88e11, #f06015);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f88e11', endColorstr='#f06015');
+}
+.cadInfo .button {
+    padding: 4px;
+    margin-left: 4px;
+    position: relative;
+    top: -3px;
+    outline: none;
+    cursor: pointer;
+    border: solid 1px #da7c0c;
+    text-align: center;
+    text-decoration: none;
+    font: 14px/100% Arial, Helvetica, sans-serif;
+    -webkit-border-radius: .5em;
+    -moz-border-radius: .5em;
+    border-radius: .3em;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
