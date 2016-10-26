@@ -480,7 +480,6 @@
 		},
 		onRemove: function (map) {
 			L.LayerGroup.prototype.onRemove.call(this, map);
-			map.off('click', _this.clickOn);
 			lastOverlayId = null;
 			L.CadUtils.clearOverlays();
 			L.CadUtils._clearLastBalloon(map);
